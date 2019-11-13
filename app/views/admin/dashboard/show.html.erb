@@ -13,10 +13,16 @@
         <%= link_to Product.count,  [:admin, :products] %> 
       </td>
       <td> 
-        <%= link_to Category.count,  [:admin, :products] %>
+        <%= link_to Category.count,  [:admin, :categories] %>
       </td>
     </tr>
+    <tr>
+      <td>
+        <%= link_to "Click here to go to Admin Products",  [:admin, :products], class: 'btn btn-lg btn-primary' %>
+      </td>
+      <td>
+      <%= link_to "Click here to go to Admin Categories",  [:admin, :categories], class: 'btn btn-lg btn-primary' %>
+      </td>
+</tr>
   </tbody>
 </table>
-
-<%= link_to "Click here to go to Admin Products",  [:admin, :products], class: 'btn btn-lg btn-primary' %>
