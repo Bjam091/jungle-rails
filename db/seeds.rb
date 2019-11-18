@@ -134,3 +134,17 @@ cat3.products.create!({
 
 
 puts "DONE!"
+
+user = User.create!({
+  first_name: "John",
+  last_name: "Johnson",
+  email: "apple@apple.com",
+  password_digest: "$2a$10$Ce2aOQ84xy.VU/lj2.2hfuF8wAEa92DM1vJZ8SIcHGmLZRrceHgoG"
+})
+
+user = User.create!({
+  first_name: "Sally",
+  last_name: "Samson",
+  email: "smile@smile.com",
+  password_digest: "$2a$10$Ce2aOQ84xy.VU/lj2.2hfuF8wAEa92DM1vJZ8SIcHGmLZRrceHgoG"
+})
