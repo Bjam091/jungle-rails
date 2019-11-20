@@ -2,6 +2,19 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+=========
+## Final Product
+
+Home Page on load ![](https://github.com/Bjam091/jungle-rails/blob/master/public/images/Home%20Page%20with%20Sold%20Out%20Item.png?raw=true)
+
+Empty Cart Warning ![](https://github.com/Bjam091/jungle-rails/blob/master/public/images/Empty%20Cart%20Warning.png?raw=true)
+
+Admin Dashboard Login ![](https://github.com/Bjam091/jungle-rails/blob/master/public/images/Admin%20Page%20locked.png?raw=true)
+
+Admin Dashboard ![](https://github.com/Bjam091/jungle-rails/blob/master/public/images/Admin%20Dashboard.png?raw=true)
+
+
+
 
 ## Setup
 
